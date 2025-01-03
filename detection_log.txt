@@ -1,0 +1,348 @@
+
+2024-09-06 23:53:13,153 - INFO - start main function
+start main function
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 205, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 196, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 126, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 61, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 205, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 196, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 126, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 61, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-09-09 10:47:54,468 - INFO - start main function
+start main function
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 205, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 196, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 126, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 61, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 205, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 196, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 126, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 61, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-09-09 11:07:39,194 - INFO - start main function
+start main function
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 203, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 194, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 124, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 59, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 203, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 194, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 124, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 59, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-09-09 11:27:30,842 - INFO - start main function
+start main function
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 203, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 194, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 124, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 59, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 203, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 194, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 124, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 59, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-09-09 12:24:46,143 - INFO - start main function
+start main function
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 203, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 194, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 162, in detect_surrounded
+    violence_detected = detect_violence(frame)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 94, in detect_violence
+    results = violence_model(frame)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\model.py", line 176, in __call__
+    return self.predict(source, stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\model.py", line 567, in predict
+    return self.predictor.predict_cli(source=source) if is_cli else self.predictor(source=source, stream=stream)
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\predictor.py", line 168, in __call__
+    return list(self.stream_inference(source, model, *args, **kwargs))  # merge list of Result into one
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\utils\_contextlib.py", line 36, in generator_context
+    response = gen.send(None)
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\predictor.py", line 254, in stream_inference
+    preds = self.inference(im, *args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\predictor.py", line 142, in inference
+    return self.model(im, augment=self.args.augment, visualize=visualize, embed=self.args.embed, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\autobackend.py", line 456, in forward
+    y = self.model(im, augment=augment, visualize=visualize, embed=embed)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\tasks.py", line 106, in forward
+    return self.predict(x, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\tasks.py", line 124, in predict
+    return self._predict_once(x, profile, visualize, embed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\tasks.py", line 145, in _predict_once
+    x = m(x)  # run
+        ^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\modules\block.py", line 235, in forward
+    y.extend(m(y[-1]) for m in self.m)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\modules\block.py", line 235, in <genexpr>
+    y.extend(m(y[-1]) for m in self.m)
+             ^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\modules\block.py", line 343, in forward
+    return x + self.cv2(self.cv1(x)) if self.add else self.cv2(self.cv1(x))
+                        ^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\modules\conv.py", line 54, in forward_fuse
+    return self.act(self.conv(x))
+                    ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 203, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 194, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 162, in detect_surrounded
+    violence_detected = detect_violence(frame)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 94, in detect_violence
+    results = violence_model(frame)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\model.py", line 176, in __call__
+    return self.predict(source, stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\model.py", line 567, in predict
+    return self.predictor.predict_cli(source=source) if is_cli else self.predictor(source=source, stream=stream)
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\predictor.py", line 168, in __call__
+    return list(self.stream_inference(source, model, *args, **kwargs))  # merge list of Result into one
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\utils\_contextlib.py", line 36, in generator_context
+    response = gen.send(None)
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\predictor.py", line 254, in stream_inference
+    preds = self.inference(im, *args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\engine\predictor.py", line 142, in inference
+    return self.model(im, augment=self.args.augment, visualize=visualize, embed=self.args.embed, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\autobackend.py", line 456, in forward
+    y = self.model(im, augment=augment, visualize=visualize, embed=embed)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\tasks.py", line 106, in forward
+    return self.predict(x, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\tasks.py", line 124, in predict
+    return self._predict_once(x, profile, visualize, embed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\tasks.py", line 145, in _predict_once
+    x = m(x)  # run
+        ^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\modules\block.py", line 235, in forward
+    y.extend(m(y[-1]) for m in self.m)
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\modules\block.py", line 235, in <genexpr>
+    y.extend(m(y[-1]) for m in self.m)
+             ^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\modules\block.py", line 343, in forward
+    return x + self.cv2(self.cv1(x)) if self.add else self.cv2(self.cv1(x))
+                        ^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\ultralytics\nn\modules\conv.py", line 54, in forward_fuse
+    return self.act(self.conv(x))
+                    ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\conv.py", line 458, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\conv.py", line 454, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\conv.py", line 458, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\nn\modules\conv.py", line 454, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-09-09 12:47:52,073 - INFO - start main function
+start main function
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 203, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 194, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 124, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 59, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "c:\personal\Women Protection\Women_config.py", line 203, in <module>
+    main()
+  File "c:\personal\Women Protection\Women_config.py", line 194, in main
+    output = detect_surrounded(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 124, in detect_surrounded
+    people_boxes = detect_full_body(frame)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\personal\Women Protection\Women_config.py", line 59, in detect_full_body
+    outputs = net.forward(output_layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-09-09 14:05:00,746 - INFO - start main function
+2024-09-09 14:06:15,156 - INFO - Error: Could not open video capture.
+start main function
+Error: Could not open video capture.
+2024-09-09 14:07:35,331 - INFO - start main function
+2024-09-09 14:08:49,490 - INFO - Error: Could not open video capture.
+start main function
+Error: Could not open video capture.
+2024-09-09 14:50:00,706 - INFO - Start main function
+2024-09-09 15:46:10,101 - INFO - Start main function
+2024-09-09 22:08:32,119 - INFO - Start main function
+2024-09-09 22:08:33,520 - INFO - Error: Could not open video capture.
+2024-09-10 21:35:09,386 - INFO - Error: Failed to capture frame.
